@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Promocional</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            margin-bottom: 20px;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .whatsapp-button {
+            background: #25D366;
+            color: white;
+            padding: 15px 25px;
+            border-radius: 25px;
+            text-decoration: none;
+            display: inline-block;
+            margin: 20px 0;
+            font-weight: bold;
+            text-align: center;
+        }
+        .message {
+            text-align: center;
+            margin: 20px 0;
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Como se prepara...</h1>
+    
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/n8uw53cIWv8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div class="message">
+        <h2>¡Gracias por tu interés en nuestro producto!</h2>
+        <p>Nos alegra que hayas llegado hasta aquí.  Si deseas realizar tu pedido ahora solo da clic al botón</p>
+    </div>
+
+    <a href="https://wa.me/593985548789?text=¡Hola! Vi su video y me gustaría realizar un pedido. ¿Me pueden ayudar?" class="whatsapp-button" target="_blank">
+        Realizar Pedido por WhatsApp
+    </a>
+</body>
+</html>
